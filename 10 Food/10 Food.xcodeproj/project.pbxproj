@@ -13,6 +13,8 @@
 		44A4DEDF2C9B619500EEFD4C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44A4DEDE2C9B619500EEFD4C /* Base */; };
 		44A4DEE12C9B619700EEFD4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A4DEE02C9B619700EEFD4C /* Assets.xcassets */; };
 		44A4DEE42C9B619700EEFD4C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44A4DEE32C9B619700EEFD4C /* Base */; };
+		44A4DEEE2C9B678B00EEFD4C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4DEED2C9B678B00EEFD4C /* SignInViewController.swift */; };
+		44A4DEF12C9B698700EEFD4C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4DEF02C9B698700EEFD4C /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		44A4DEE02C9B619700EEFD4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44A4DEE32C9B619700EEFD4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44A4DEE52C9B619700EEFD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A4DEED2C9B678B00EEFD4C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		44A4DEF02C9B698700EEFD4C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		44A4DED62C9B619500EEFD4C /* 10 Food */ = {
 			isa = PBXGroup;
 			children = (
+				44A4DEEF2C9B696800EEFD4C /* SignUp */,
+				44A4DEEC2C9B676E00EEFD4C /* SignIn */,
+				44A4DEEB2C9B672C00EEFD4C /* Storyboards */,
 				44A4DED72C9B619500EEFD4C /* AppDelegate.swift */,
 				44A4DED92C9B619500EEFD4C /* SceneDelegate.swift */,
 				44A4DEDB2C9B619500EEFD4C /* ViewController.swift */,
-				44A4DEDD2C9B619500EEFD4C /* Main.storyboard */,
 				44A4DEE02C9B619700EEFD4C /* Assets.xcassets */,
-				44A4DEE22C9B619700EEFD4C /* LaunchScreen.storyboard */,
 				44A4DEE52C9B619700EEFD4C /* Info.plist */,
 			);
 			path = "10 Food";
+			sourceTree = "<group>";
+		};
+		44A4DEEB2C9B672C00EEFD4C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				44A4DEDD2C9B619500EEFD4C /* Main.storyboard */,
+				44A4DEE22C9B619700EEFD4C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		44A4DEEC2C9B676E00EEFD4C /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				44A4DEED2C9B678B00EEFD4C /* SignInViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		44A4DEEF2C9B696800EEFD4C /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				44A4DEF02C9B698700EEFD4C /* SignUpViewController.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A4DEEE2C9B678B00EEFD4C /* SignInViewController.swift in Sources */,
 				44A4DEDC2C9B619500EEFD4C /* ViewController.swift in Sources */,
 				44A4DED82C9B619500EEFD4C /* AppDelegate.swift in Sources */,
 				44A4DEDA2C9B619500EEFD4C /* SceneDelegate.swift in Sources */,
+				44A4DEF12C9B698700EEFD4C /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
